@@ -1,0 +1,92 @@
+
+body {
+  background-color: hsl(0, 0%, 8%);
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+
+
+}
+
+.card {
+  background-color: hsl(0, 0%, 12%);
+  width: 383px;
+  height: 540px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px 0; فاصله داخلی
+
+}
+
+img {
+  display: block;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-bottom: 20px; /* فاصله عکس از اسم */
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* فاصله بین اسم، لوکیشن و بایو */
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+  padding-top: 10px;
+  
+  color: white;
+}
+
+.location {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: hsl(75, 94%, 57%);
+  margin: 0;
+}
+
+.bio {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 15px; /* فاصله از location */
+  text-align: center;
+  color: hsl(0, 0%, 80%);
+}
+
+.links {
+  margin-top: 15px; /* فاصله کل بخش دکمه‌ها از info */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px; /* فاصله بین دکمه‌ها */
+  width: 100%;
+}
+
+button {
+  width: 80%;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 13px 0;
+  border-radius: 8px;
+  border: none;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  cursor: pointer;
+}
+
+button:active{
+  background-color:hsl(75, 94%, 57%);
+  color:black ;
+}
